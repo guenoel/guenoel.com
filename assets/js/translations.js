@@ -30,7 +30,7 @@ await i18next.init({
         iam: "I'm",
         welcome: ['developer', 'available'],
         about2: 'About',
-        abouttext: 'Passionate embedded developer with a background in telecom and network supervision. Skilled in C, Python, and microcontroller development (ESP32, STM32, FreeRTOS), I have a strong interest in critical systems, connected devices, and communication protocols (MQTT, LoRa, Sigfox). Curious and detail-oriented, I am looking for a position in embedded development, combining firmware, connectivity, and system optimization.',
+        abouttext: 'Passionate Flutter developer with a strong interest in decentralized technologies and Web3. Skilled in Dart, cross-platform mobile development, and API integration, I enjoy building secure and performant applications that connect users to blockchain services. Curious and detail-oriented, I am seeking a role where I can contribute to innovative projects combining mobile development, decentralization, and user experience optimization.',
         dev: 'Developer',
         contact: 'You can contact me or find my details below:',
         phone: 'Phone:',
@@ -40,7 +40,7 @@ await i18next.init({
         rncp: 'RNCP 31678: Application developer and designer',
         driving: 'In possession of a Category B driving license and a Category A1 license for motorcycles. I own a personal vehicle.',
         skills_title: 'Skills',
-        skills_desc: 'Here are some technologies I\'ve worked with, along with the link to GitHub:',
+        skills_desc: 'Here are some technologies I\'ve worked with, along with their link to GitHub:',
 
         resume_title: 'Resume',
         resume_desc: 'Developer and technician, I have multiple skills.',
@@ -117,6 +117,10 @@ await i18next.init({
         portfolio_item3_desc: 'Flaura/Plantidote projects',
         portfolio_item4_title: 'Dart/Flutter',
         portfolio_item4_desc: 'Game for learning a foreign alphabet',
+        portfolio_item5_title: 'Dart/Flutter',
+        portfolio_item5_desc: 'QR code printing and decode app',
+        portfolio_item6_title: 'Dart/Flutter',
+        portfolio_item6_desc: 'Client for cryptocurrency G1',
 
         testimonial_title: 'Testimonials',
         testimonial_desc: 'Some feedback and impressions.',
@@ -141,7 +145,7 @@ await i18next.init({
         iam: 'Je suis',
         welcome: ['développeur', 'disponible'],
         about2: 'À propos',
-        abouttext: 'Développeur embarqué passionné avec une expérience en télécom et supervision réseau. Compétent en C, Python, et développement microcontrôleur (ESP32, STM32, FreeRTOS), je m\'intéresse particulièrement aux systèmes critiques, objets connectés, et protocoles de communication (MQTT, LoRa, Sigfox). Curieux et attentif aux détails, je recherche un poste en développement embarqué, alliant firmware, connectivité, et optimisation système.',
+        abouttext: 'Développeur Flutter passionné, avec un fort intérêt pour les technologies décentralisées et le Web3. Compétent en Dart, développement mobile multiplateforme et intégration d’API, j’aime concevoir des applications sécurisées et performantes connectant les utilisateurs aux services blockchain. Curieux et rigoureux, je recherche un poste où je pourrai contribuer à des projets innovants alliant développement mobile, décentralisation et optimisation de l’expérience utilisateur.',
         dev: 'Développeur',
         contact: 'Vous pouvez me contacter ou trouver mes coordonnées ci-dessous:',
         phone: 'Téléphone:',
@@ -151,7 +155,7 @@ await i18next.init({
         rncp: 'RNCP 31678 : Concepteur et développeur d\'applications',
         driving: 'Je suis titulaire du permis B et du permis moto A1. Je possède un véhicule.',
         skills_title: 'Compétences',
-        skills_desc: 'Voici quelques technologies avec lesquelles j\'ai travaillé avec le lien vers github :',
+        skills_desc: 'Voici quelques technologies avec lesquelles j\'ai travaillé avec leurs liens vers github :',
 
         resume_title: 'CV',
         resume_desc: 'Développeur et technicien, j\'ai de multiples compétences.',
@@ -227,6 +231,10 @@ await i18next.init({
         portfolio_item3_desc: 'Projets Flaura/Plantidote',
         portfolio_item4_title: 'Dart/Flutter',
         portfolio_item4_desc: 'Jeu pour apprendre un alphabet étranger',
+        portfolio_item5_title: 'Dart/Flutter',
+        portfolio_item5_desc: 'Impression et lecture de QR code chiffrés',
+        portfolio_item6_title: 'Dart/Flutter',
+        portfolio_item6_desc: 'Client pour crypto-monnaie G1',
 
         testimonial_title: 'Témoignages',
         testimonial_desc: 'Quelques retours et impressions.',
@@ -267,6 +275,8 @@ const applyTranslations = () => {
     'portfolio_item2_title', 'portfolio_item2_desc',
     'portfolio_item3_title', 'portfolio_item3_desc',
     'portfolio_item4_title', 'portfolio_item4_desc',
+    'portfolio_item5_title', 'portfolio_item5_desc',
+    'portfolio_item6_title', 'portfolio_item6_desc',
     'testimonial_title', 'testimonial_desc', 'testimonial_1', 'testimonial_2', 'testimonial_3', 'testimonial_4', 'testimonial_5',
     'footer_credits', 'footer_credits_link', 'footer_rights', 'footer_credits'
     ];
